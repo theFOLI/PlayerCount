@@ -7,7 +7,7 @@ namespace PlayerCountHades.Commands
     [CommandHandler(typeof(RemoteAdminCommandHandler))]
     class Commands : ICommand
     {
-        public string Command { get; } = "CountPlayers";
+        public string Command { get; } = "countplayers";
 
         public string[] Aliases { get; } = { "CP", "cp" };
 
